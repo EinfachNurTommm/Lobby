@@ -3,3 +3,43 @@ version: '${project.version}'
 main: com.tom.lobby.Main
 authors: [EinfachNurTommm]
 description: Lobby Plugin
+commands:
+  inv:
+    description: Inventar Bearbeitung aktivieren/deaktivieren
+    usage: </inv>
+  setBedWars:
+    description: Setzt BedWars-point
+    usage: </setbedwars>
+  setSkyWars:
+    description: Setzt SkyWars-point
+    usage: </setskywars>
+  setLobby:
+    description: Setzt setSpawn-point
+    usage: </setSpawn>
+  setOneLine:
+    description: Setzt setOneLine-point
+    usage: </setOneLine>
+  setMTC:
+    description: Setzt setMTC-point
+    usage: </setMTC>
+  setMurder:
+    description: Setzt setMurder-point
+    usage: </setMurder>
+  setKnockFFA:
+    description: Setzt setKnockFFA-point
+    usage: </setKnockFFA>
+  setCookieClicker:
+    description: Setzt setCookieClicker-point
+    usage: </setCookieClicker>
+  setCaseOpening:
+    description: Setzt setCaseOpening-point
+    usage: </setCaseOpening>
+  gm:
+    description: Gamemode wechseln
+    usage: </gm>
+  kopf:
+    description: Kann den Kopf von einem anderen Spieler geben
+    usage: </kopf> <Spieler>
+  build:
+    description: bauen aktivieren/deaktivieren
+    usage: </build>
