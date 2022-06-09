@@ -1,0 +1,5 @@
+name: Lobby
+version: '${project.version}'
+main: com.tom.lobby.Main
+authors: [EinfachNurTommm]
+description: Lobby Plugin
